@@ -1,5 +1,5 @@
 # Penguin Client
-
+ 
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.20.1-green?logo=minecraft" alt="Minecraft 1.20.1">
   <img src="https://img.shields.io/badge/Mod%20Loader-Fabric-dbd0b4?logo=curseforge" alt="Fabric">
