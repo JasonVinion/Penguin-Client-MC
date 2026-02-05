@@ -7,9 +7,6 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License">
   </a>
   <a href="https://github.com/JasonVinion/Penguin-Client-MC/releases">
-    <img src="https://img.shields.io/github/v/release/JasonVinion/Penguin-Client-MC" alt="Latest Release">
-  </a>
-  <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/JasonVinion/Penguin-Client-MC?filter=.java$&label=lines%20of%20code&color=blue" alt="Lines of Code">
 </p>
 
 <p align="center">
