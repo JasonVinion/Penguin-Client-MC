@@ -7,6 +7,9 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License">
   </a>
   <a href="https://github.com/JasonVinion/Penguin-Client-MC/releases">
+  </br>
+  <a href="[https://github.com/JasonVinion/Whisper-Studio](https://github.com/JasonVinion/Penguin-Client-MC)">
+  <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/JasonVinion/Penguin-Client-MC/badge&label=lines%20of%20code" alt="GitHub lines of code"/>
 </p>
 
 <p align="center">
