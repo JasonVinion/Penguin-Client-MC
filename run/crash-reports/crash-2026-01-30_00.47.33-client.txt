@@ -1,0 +1,121 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 2026-01-30 00:47:33
+Description: Initializing game
+
+java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]139827044502560
+	at com.mojang.blaze3d.platform.GLX._initGlfw(GLX.java:75)
+	at com.mojang.blaze3d.systems.RenderSystem.initBackendSystem(RenderSystem.java:847)
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:483)
+	at net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at com.mojang.blaze3d.platform.GLX._initGlfw(GLX.java:75)
+	at com.mojang.blaze3d.systems.RenderSystem.initBackendSystem(RenderSystem.java:847)
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:483)
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.11.0-1018-azure
+	Java Version: 17.0.18, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 228143104 bytes (217 MiB) / 713031680 bytes (680 MiB) up to 2082471936 bytes (1986 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz
+	Identifier: Intel64 Family 6 Model 106 Stepping 6
+	Microarchitecture: Ice Lake (Server)
+	Frequency (GHz): 2.80
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: hyperv_drmdrmfb
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7043.30
+	Virtual memory used (MB): 2718.25
+	Swap memory total (MB): 3072.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		fabric-api: Fabric API 0.83.0+1.20.1
+		fabric-api-base: Fabric API Base 0.4.29+b04edc7a82
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.34+4d8536c982
+		fabric-biome-api-v1: Fabric Biome API (v1) 13.0.10+b3afc78b82
+		fabric-block-api-v1: Fabric Block API (v1) 1.0.9+e022e5d182
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.39+b3afc78b82
+		fabric-client-tags-api-v1: Fabric Client Tags 1.0.20+b3afc78b82
+		fabric-command-api-v2: Fabric Command API (v2) 2.2.11+b3afc78b82
+		fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.7+b3afc78b82
+		fabric-convention-tags-v1: Fabric Convention Tags 1.5.3+b3afc78b82
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.18+aeb40ebe82
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.1.10+b3afc78b82
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.51+b3afc78b82
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.21+b3afc78b82
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.0+b3afc78b82
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.38+b04edc7a82
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 1.2.10+b3afc78b82
+		fabric-item-api-v1: Fabric Item API (v1) 2.1.26+b3afc78b82
+		fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.7+b3afc78b82
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.36+fb8d95da82
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.20+b3afc78b82
+		fabric-loot-api-v2: Fabric Loot API (v2) 1.1.37+b3afc78b82
+		fabric-message-api-v1: Fabric Message API (v1) 5.1.6+b3afc78b82
+		fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.47+b3afc78b82
+		fabric-models-v0: Fabric Models (v0) 0.3.35+b3afc78b82
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.3.8+b3afc78b82
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.0.6+b3afc78b82
+		fabric-particles-v1: Fabric Particles (v1) 1.0.28+b3afc78b82
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.18+b3afc78b82
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.2.6+b3afc78b82
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 3.0.1+b3afc78b82
+		fabric-renderer-indigo: Fabric Renderer - Indigo 1.3.1+b3afc78b82
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.33+b3afc78b82
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.26+b3afc78b82
+		fabric-rendering-v1: Fabric Rendering (v1) 3.0.6+b3afc78b82
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.4+b3afc78b82
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.7+f7923f6d82
+		fabric-screen-api-v1: Fabric Screen API (v1) 2.0.6+b3afc78b82
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.27+b3afc78b82
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.12+b3afc78b82
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 3.2.2+b3afc78b82
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.2.0+b3afc78b82
+		fabricloader: Fabric Loader 0.14.21
+		java: OpenJDK 64-Bit Server VM 17
+		minecraft: Minecraft 1.20.1
+		penguin-client: Penguin Client 1.0.0
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>

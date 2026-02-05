@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "penguin-client",
+  "version": "${version}",
+  "name": "Penguin Client",
+  "description": "A Minecraft client for single player and anarchy servers with fun mod-style utilities and exploits.",
+  "authors": [
+    "Me"
+  ],
+  "contact": {
+    "sources": "https://github.com/JasonVinion/MC-Client-Penguin"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/penguin-client/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+        "com.penguin.client.ClientMain"
+    ]
+  },
+  "mixins": [
+    "penguin-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,843 @@
+{
+  "modules": {
+    "ActiveModList": {
+      "enabled": true,
+      "key": -1,
+      "settings": {
+        "Background": true
+      }
+    },
+    "AntiEffect": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "No Blindness": true,
+        "No Nausea": true
+      }
+    },
+    "AutoArmor": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "No Break": true,
+        "Durability %": 5.0,
+        "Delay": 2.0
+      }
+    },
+    "NoFall": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Packet"
+      }
+    },
+    "AntiWaterPush": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "FastPlace": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Fullbright": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Gamma",
+        "Gamma": 100.0
+      }
+    },
+    "XRay": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Coal": true,
+        "Iron": true,
+        "Gold": true,
+        "Diamond": true,
+        "Emerald": true,
+        "Redstone": true,
+        "Lapis": true,
+        "Netherite": true,
+        "Falling Blocks": false,
+        "Liquids": false
+      }
+    },
+    "Flight": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Standard",
+        "NoFall on Disable": true
+      }
+    },
+    "Sprint": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Rage",
+        "Omnidirectional": false,
+        "Keep Sprint": true
+      }
+    },
+    "Step": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Height": 1.0
+      }
+    },
+    "Jesus": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Solid",
+        "Water": true,
+        "Lava": true
+      }
+    },
+    "Velocity": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Horizontal": 0.0,
+        "Vertical": 0.0
+      }
+    },
+    "AutoRespawn": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AutoTool": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Prevent Breaking": false,
+        "Threshold": 10.0,
+        "Preference": "Efficiency",
+        "Inventory": true
+      }
+    },
+    "AutoEat": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "FastExp": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AutoFish": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AutoMount": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AntiVoid": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Bounce"
+      }
+    },
+    "AntiHunger": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Spammer": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Message": "Penguin Client on top!",
+        "Delay": 100.0
+      }
+    },
+    "ChatSuffix": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Suffix": " | Penguin Client"
+      }
+    },
+    "Panic": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AutoDisconnect": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Health": 4.0,
+        "Auto Disable": true
+      }
+    },
+    "InvCleaner": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Inclusive",
+        "Preset": "None"
+      }
+    },
+    "ESP": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Players": true,
+        "Mobs": true,
+        "Animals": true,
+        "Range": 100.0,
+        "Update Ticks": 5.0
+      }
+    },
+    "Tracers": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Players": true,
+        "Mobs": true,
+        "Animals": true,
+        "Range": 100.0,
+        "Update Ticks": 5.0
+      }
+    },
+    "NameTags": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Scale": 1.0,
+        "Players": true,
+        "Mobs": false,
+        "Animals": false,
+        "Range": 64.0,
+        "Update Ticks": 5.0
+      }
+    },
+    "NoWeather": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Zoom": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Amount": 2.0,
+        "Smooth Zoom": true,
+        "Scroll Control": false,
+        "Smoothness": 0.5
+      }
+    },
+    "BlockESP": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 16.0,
+        "Update Ticks": 40.0
+      }
+    },
+    "ItemESP": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 100.0,
+        "Update Ticks": 5.0
+      }
+    },
+    "PotionSpoofer": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Speed": false,
+        "Jump Boost": false,
+        "Strength": false,
+        "Night Vision": false
+      }
+    },
+    "AutoWalk": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AutoJump": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "HighJump": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Height": 0.42
+      }
+    },
+    "Spider": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "FastSwim": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AirJump": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "NoSlow": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Items": true,
+        "Cobwebs": true,
+        "Soul Sand": true,
+        "Slime Blocks": true,
+        "Honey Blocks": true,
+        "Slow Factor": 100.0
+      }
+    },
+    "Parkour": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "KillAura": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 4.0,
+        "Players": true,
+        "Mobs": false,
+        "Animals": false,
+        "Preference": "Sword",
+        "Rotation": "None"
+      }
+    },
+    "AutoTotem": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "TriggerBot": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AutoSoup": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Criticals": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Packet"
+      }
+    },
+    "BowAim": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Players": true,
+        "Mobs": false,
+        "Animals": false,
+        "Range": 20.0,
+        "Smoothness": 5.0,
+        "FOV": 90.0,
+        "Show FOV Circle": true,
+        "Predict Movement": true
+      }
+    },
+    "Reach": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Distance": 4.0
+      }
+    },
+    "HitBox": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Expand": 0.5
+      }
+    },
+    "AutoWeapon": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Prevent Breaking": false,
+        "Threshold": 10.0,
+        "Preference": "Sword",
+        "Inventory": true
+      }
+    },
+    "AimAssist": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Linear",
+        "Range": 4.0,
+        "Speed": 5.0,
+        "Smoothness": 4.0,
+        "FOV": 90.0,
+        "Players": true,
+        "Mobs": true,
+        "Animals": false,
+        "Click Only": true
+      }
+    },
+    "AntiAFK": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Rotate": true,
+        "Jump": false,
+        "Walk": false,
+        "Punch": false,
+        "Chat": false,
+        "Chat Delay": 60.0
+      }
+    },
+    "FeedAura": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 5.0,
+        "Delay": 5.0
+      }
+    },
+    "InfiniteChat": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "FastMine": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Delay",
+        "Speed": 1.2
+      }
+    },
+    "AutoFarm": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Scaffold": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Fast",
+        "Inventory": true,
+        "Tower": false,
+        "Tower Speed": 0.42,
+        "Keep Y": false
+      }
+    },
+    "Speed": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Strafe",
+        "Speed": 2.0
+      }
+    },
+    "Freecam": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Speed": 1.0
+      }
+    },
+    "AntiUnderwaterFog": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "SafeWalk": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "AntiEntityPush": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "PowderSnowWalk": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Strafe": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Speed": 0.2
+      }
+    },
+    "StrafeAura": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 4.0,
+        "Speed": 0.3,
+        "Players": true,
+        "Mobs": true,
+        "Animals": false
+      }
+    },
+    "AutoCrystal": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Place": true,
+        "Break": true,
+        "Range": 5.0,
+        "Delay": 2.0,
+        "Min Health": 8.0,
+        "Max Self Dmg": 6.0,
+        "Min Damage": 4.0,
+        "Players": true,
+        "Mobs": false,
+        "Animals": false
+      }
+    },
+    "AutoPot": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Health": 10.0,
+        "Health Pot": true,
+        "Speed Pot": true,
+        "Strength Pot": true
+      }
+    },
+    "SprintReset": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "NoJumpDelay": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "LongJump": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Boost": 0.5
+      }
+    },
+    "TridentFly": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "NoFall on Disable": true
+      }
+    },
+    "Sneak": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "HotbarRefill": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Threshold": 16.0,
+        "Delay": 5.0,
+        "Use Layout": false,
+        "Layout Config": ""
+      }
+    },
+    "AntiLevitation": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "XCarry": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Trajectories": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Bows": true,
+        "Pearls": true,
+        "Potions": true,
+        "Other": true,
+        "Show Landing": true
+      }
+    },
+    "AutoTunnel": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Delay": 1.0
+      }
+    },
+    "AutoWeb": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 4.0,
+        "Predict": true,
+        "Predict Factor": 2.0
+      }
+    },
+    "FastBow": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Ticks": 20.0,
+        "Mode": "Hold"
+      }
+    },
+    "BoatFly": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Speed": 5.0,
+        "Vertical": 2.0
+      }
+    },
+    "InventoryMove": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Rotate": true
+      }
+    },
+    "Phase": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Clip",
+        "Distance": 0.5
+      }
+    },
+    "ChestESP": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Chests": true,
+        "Ender Chests": true,
+        "Shulkers": true,
+        "Update Ticks": 20.0
+      }
+    },
+    "FastUse": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Packet",
+        "Speed": 20.0
+      }
+    },
+    "LiquidInteract": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "Nuker": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Range": 4.0,
+        "Mode": "All",
+        "Delay": 1.0
+      }
+    },
+    "Timer": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Speed": 1.0
+      }
+    },
+    "BetaTesterInfo": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "TestPlatform": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Width": 100.0,
+        "Length": 100.0,
+        "Height": 3.0,
+        "Elevation": 50.0
+      }
+    },
+    "SpawnTestMobs": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mob Type": "Zombie",
+        "Count": 5.0,
+        "Radius": 5.0
+      }
+    },
+    "SpawnPowderSnow": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "TimeWeather": {
+      "enabled": false,
+      "key": -1,
+      "settings": {}
+    },
+    "HotbarPresets": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Preset": "Combat"
+      }
+    },
+    "GiveArmorSet": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Armor Type": "Diamond"
+      }
+    },
+    "HealAndFeed": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Health": 20.0,
+        "Food Level": 20.0
+      }
+    },
+    "GameModeSwitch": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Mode": "Creative"
+      }
+    },
+    "ClearEffects": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Clear Inventory": false
+      }
+    },
+    "GiveEffects": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Effect Preset": "Speed",
+        "Duration (sec)": 300.0,
+        "Amplifier": 1.0
+      }
+    },
+    "TeleportUtils": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 0.0
+      }
+    },
+    "GiveXP": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Levels": 30.0
+      }
+    },
+    "GiveEnchantedGear": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Gear Type": "Sword",
+        "Enchant Level": 5.0
+      }
+    },
+    "BuildStructures": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "Size": 10.0
+      }
+    },
+    "ClientSettings": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "UI Mode": "List",
+        "Rainbow Mode": false,
+        "Rainbow Speed": 1.0,
+        "Beta Tester": false,
+        "Active List Color": {
+          "color": -11141291,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Menu Title Color": {
+          "color": -11141121,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Menu Background": {
+          "color": -585491942,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Selected Item": {
+          "color": -1879048192,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Unselected Item": {
+          "color": -1876811230,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Enabled Text": {
+          "color": -11141291,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Disabled Text": {
+          "color": -43691,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Normal Text": {
+          "color": -5592406,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        },
+        "Highlighted Text": {
+          "color": -1,
+          "rainbow": false,
+          "rainbowSpeed": 1.0
+        }
+      }
+    }
+  }
+}

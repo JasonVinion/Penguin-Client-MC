@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "package": "com.penguin.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "BlockMixin",
+    "AbstractBlockMixin",
+    "BackgroundRendererMixin",
+    "BlockStateMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "MinecraftClientMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "GameRendererMixin",
+    "GameRendererBreachMixin",
+    "GameRendererAntiEffectMixin",
+    "ClientPlayerEntityMixin",
+    "PlayerEntityMixin",
+    "WorldRendererMixin",
+    "LightmapTextureManagerMixin",
+    "InGameHudMixin",
+    "LivingEntityMixin",
+    "HorseBaseEntityMixin",
+    "PlayerMoveC2SPacketAccessor",
+    "ChatScreenMixin",
+    "ClientPlayerInteractionManagerAccessor",
+    "CameraMixin",
+    "PowderSnowBlockMixin",
+    "TimerMixin",
+    "KeyBindingMixin",
+    "OptionsScreenMixin",
+    "MouseMixin",
+    "DeathScreenMixin",
+    "DisconnectedScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
